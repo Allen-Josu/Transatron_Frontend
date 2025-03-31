@@ -1,12 +1,12 @@
-import React from "react";
+import React from 'react'
 
-const Home = () => {
+export default function Home() {
   return (
-    <div>
-      <h1>Welcome to Transatron</h1>
-      <p>This is the home page.</p>
-    </div>
-  );
-};
-
-export default Home;
+    <>
+      <div>
+        <h1>Welcome to Transatron</h1>
+        <p className="text-green-100">This is the home page.</p>
+      </div>
+    </>
+  )
+}
